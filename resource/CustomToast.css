@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 8, 2024, 10:07:15 AM
+    Author     : nites
+*/
+ .custom-toast-fixed-top{
+    position: fixed;
+    top: 60px;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .custom-toast-absolute-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .custom-toast-wrapper{
+    margin: 0 auto;
+    max-width: 44rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+  .custom-toast{
+    margin: 0 auto;
+    border-radius: .25rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    background: #5b7e96;
+    padding: .5rem .75rem;
+    max-width: 40rem;
+    position: relative;
+  }
+
+  .custom-toast-inner{
+    display: flex;
+  }
+  .custom-toast-msg{
+    color: white;
+    line-height: 1.5rem;
+    flex: 1 1 0%;
+    min-width: 0;
+    padding-top: .2rem;
+    padding-left: .5rem;
+    padding-right: .75rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  .custom-toast-msg ul{
+    margin: 0;
+    padding-left: .75rem;
+  }
+  .custom-toast-icons, .custom-toast-action{
+    flex: none;
+    color: white;
+  }
+  .custom-toast-action{
+    cursor: pointer;
+  }
+  
+  .custom-close{
+    border: none;
+    background: none;
+    color:white;
+    outline:none;
+    padding: 0;
+    font-family: 'Arial', Segoe UI Symbol;
+  }
+  .custom-toast + .custom-toast{
+    margin-top: .5rem;
+  }
+  .custom-theme-error{
+    background: #fe4a5d;
+  }
+  .custom-theme-success{
+    background: #00c18c;
+  }
+  .custom-theme-warning{
+    background: #F2711C;
+  }
+  
+ .icon_circle_success {
+  text-align: center;
+  background: transparent;
+  border-radius: 50%;
+  color: #fff;
+  height: 2em;
+  position: relative;
+  width: 2em;
+}
